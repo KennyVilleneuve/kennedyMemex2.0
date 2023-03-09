@@ -1,0 +1,1 @@
+One of the most signifgant collections of knowledge in the Ancient world, It was detroyed by fire and along with it, the vast majority of its knowledge.

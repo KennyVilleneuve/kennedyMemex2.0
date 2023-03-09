@@ -1,0 +1,1 @@
+The Process by which Goverment's impose the will of the people on all matter of things. 

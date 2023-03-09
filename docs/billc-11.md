@@ -1,0 +1,6 @@
+ Government Bill C-11, the [_Online Streaming Act_](https://www.parl.ca/legisinfo/en/bill/44-1/c-11), which Change Canada’s broadcasting policy and give new powers to the country’s broadcasting regulator, among many other things.
+
+Broadcasting policy is set out in [section 3](https://laws.justice.gc.ca/eng/acts/B-9.01/FullText.html#h-34144) of the [_Broadcasting Act_](https://laws.justice.gc.ca/eng/acts/B-9.01/FullText.html), which received Royal Assent in 1991 — while the internet as we know it today was in its infancy. Among the more significant changes set out in Bill C-11 is the expansion of the current policy to include the digital realm.
+
+Canada’s broadcasting policy is regulated by the [Canadian Radio-television and Telecommunications Commission](https://crtc.gc.ca/eng/home-accueil.htm) (CRTC), an administrative tribunal that operates at arm’s length from the federal government. Bill C-11 would give the CRTC new powers, including the ability to impose financial penalties against people and businesses that violate certain provisions of the _Broadcasting Act_ or its regulations. 
+-Senate of Canada 

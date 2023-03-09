@@ -1,0 +1,1 @@
+The entity by wich a state is Governed

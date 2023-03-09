@@ -1,0 +1,1 @@
+Wikipedia is an infinitly growing, constantly changing encyclopedia. It is the emoodiement of Vannevar Bush's idea of a Memex. 

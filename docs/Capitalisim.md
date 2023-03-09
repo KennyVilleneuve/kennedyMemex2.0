@@ -1,0 +1,2 @@
+an economic system characterized by private or corporate ownership of capital goods, by investments that are determined by private decision, and by prices, production, and the distribution of goods that are determined mainly by competition in a free market. 
+-Miriam-Webster 

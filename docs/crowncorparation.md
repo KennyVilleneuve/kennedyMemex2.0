@@ -1,0 +1,1 @@
+A Corparation owned by the Monarch in Right of Canada, the province or the city. For example the CBC. 
