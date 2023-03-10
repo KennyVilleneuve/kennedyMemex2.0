@@ -1,0 +1,1 @@
+The internet before it was possibel, and when it was still considerd new. This time ended about 2005. 
