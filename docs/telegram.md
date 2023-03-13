@@ -1,0 +1,1 @@
+A message sent by telegraph and then delivered in written or printed form.

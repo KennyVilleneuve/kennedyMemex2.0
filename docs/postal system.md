@@ -1,0 +1,1 @@
+The mail or post is a system for physically transporting postcards, letters, and parcels. A postal service can. In the past many post offices also provided telegram, services and/or owned the national telegraph infrastructure. 

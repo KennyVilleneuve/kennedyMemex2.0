@@ -1,0 +1,1 @@
+In the history of the United Kingdom and the British Empire, the Victorian era was the period of Queen Victoria's reign, from 20 June 1837 until her death on 22 January 1901.

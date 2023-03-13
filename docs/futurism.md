@@ -1,0 +1,1 @@
+Concern with events and trends of the future, or which anticipate the future.

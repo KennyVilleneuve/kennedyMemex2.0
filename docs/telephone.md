@@ -1,0 +1,1 @@
+A system for Tansmitting voices on a person to person level over any distance.  Using wires, satellite technologies and a number of other methods.

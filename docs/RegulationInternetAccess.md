@@ -9,7 +9,4 @@ alias: ["Regulation and Internet Access in Germany"]
 > - **Bibliography:** Anon. n.d. _Regulation and Internet Access in Germany_.
 
 ## Annotations
-%% begin annotations %%
-%% end annotations %%
 
-%% Import Date: 2023-02-09T21:46:15.400-05:00 %%

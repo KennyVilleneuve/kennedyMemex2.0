@@ -1,0 +1,1 @@
+Short for Science, technology, engineering, and mathematics. 

@@ -211,3 +211,53 @@
 -   Before telegram, 100 days between London and Hong Kong. 
 -   Marx and Engels, the need for a constantly changing market
 -   If messaging is instant them how can a state be controlled
+
+**Feb 27th 1:05 pm**
+
+  
+
+-   Telephones 
+
+-   Charles Whetstone Enchanted lyre, 
+
+-   Piano contact to a layer by a string such that if a person play on the piano, the lyre appears to play on its own. 
+
+-   Charles page
+
+-   A horseshoe magnet can played by changing the frequency going through the magnet. 
+
+-   Gray vs bell 
+
+-   Patented on the same day 
+-   People astounded about the fact that noise was coming through a telephone.
+-   Receiver works okay, transmitter was sketchy. 
+-   Enter Thomas Edison, and emille berliner. 
+-   More legal battles come about
+
+-   Breaks and accelerators 
+
+-   Bell buys out western union telephones
+-   Western Union Buys out bell telegraph 
+
+-   Women work the switchboards.
+
+-   The phone stuff is gendered feminine
+
+  
+
+  
+
+**Mar 1st 1:05 pm (I was late)** 
+
+  
+
+-   Claude Shannon at bell labs 
+
+-   Division of a message from it’s meaning 
+
+-   Sparks the beginning of the modern age 
+-   Influences Alan Turing 
+
+-   Combines Information theory with logic theory 
+
+-   Model K adder Proof of concept for what Shannon was arguing in his papers.

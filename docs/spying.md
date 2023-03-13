@@ -1,0 +1,1 @@
+Work for a government or other organization by secretly collecting information about enemies or competitors.

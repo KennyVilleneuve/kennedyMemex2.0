@@ -1,0 +1,1 @@
+selling through an independent retailer, as opposed to selling directly to consumers. 

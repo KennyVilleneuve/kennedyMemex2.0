@@ -1,0 +1,1 @@
+Starting in 1914 the first world war fought between The triple entente, against the Central powers, with the Central powers eventually surrendering in 1918. 

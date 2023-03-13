@@ -1,0 +1,1 @@
+The colonization of the majority of the African continent in the latter half of the 19th century, particularly by the British Empire,France,The Geman Empire, Spain, Portugal and Belgium. 

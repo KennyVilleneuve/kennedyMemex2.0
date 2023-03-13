@@ -1,0 +1,1 @@
+A policy of extending a country's power and influence through diplomacy or military force.

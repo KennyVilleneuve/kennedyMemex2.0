@@ -1,0 +1,1 @@
+The physical and logical components of a communication network that enable the transmission and reception of data.

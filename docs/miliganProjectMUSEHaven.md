@@ -9,7 +9,4 @@ alias: ["Project MUSE - “A Haven for Perverts, Criminals, and Goons”"]
 > - **Bibliography:** Miligan, I. n.d. _Project MUSE - “A Haven for Perverts, Criminals, and Goons”: Children and the Battle for and Against Canadian Internet Regulation, 1991-1999_. Available at [https://muse-jhu-edu.proxy.library.carleton.ca/article/582287](https://muse-jhu-edu.proxy.library.carleton.ca/article/582287) [Last accessed 9 February 2023].
 
 ## Annotations
-%% begin annotations %%
-%% end annotations %%
 
-%% Import Date: 2023-02-09T22:45:49.452-05:00 %%

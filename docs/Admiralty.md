@@ -1,0 +1,1 @@
+The executive department or offciers having general authority over Britsh naval affairs. They also had massive influnce on the affairs of the state. 

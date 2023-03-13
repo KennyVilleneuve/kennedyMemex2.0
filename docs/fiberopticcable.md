@@ -1,0 +1,1 @@
+Fiber-optic cables are able to transmit infomration as light thrugh a glass medium, making them much faster than traditional forms of telecommunications cable.

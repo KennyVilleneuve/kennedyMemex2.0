@@ -1,0 +1,1 @@
+The two continents comprising the America's, with a population of about one billion people and compsring about twnety four percent of the worlds land mass. 
