@@ -1,0 +1,1 @@
+  A political approach that favors free market capitalism, deregulaton and minimal government involvement in general but heavy involvement in social matters along with cost cutting. .  The movement started with politicians such as Ronald Reagan, Magret Thatcher, and Brian Mulrooney.

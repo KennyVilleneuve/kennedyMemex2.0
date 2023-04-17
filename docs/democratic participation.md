@@ -1,0 +1,1 @@
+Paticpation in the democractic though things like voting, protesting and engange in political activities. 

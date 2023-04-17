@@ -1,0 +1,1 @@
+A bomb containg a nuclear warhead, a wepon of mass destruction. 

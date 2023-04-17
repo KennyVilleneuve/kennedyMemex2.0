@@ -1,0 +1,1 @@
+Proto version of the internet made with orginal militrary intentions, allowed for trnasmission of messages and data almost instanly. 

@@ -1,0 +1,1 @@
+The Liberal party Of Canada is a Centre-left political party in Canada led by Prime Minister Justin Trudeau. 

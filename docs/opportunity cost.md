@@ -1,0 +1,1 @@
+A buisness term meaing the loss of potential gain from other alternatives when one alternative is chosen.

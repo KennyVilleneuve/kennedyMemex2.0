@@ -1,0 +1,1 @@
+A digital, highly violotile [[cryptocurrency]] that  is based in blockchain technology and not a central bank. 

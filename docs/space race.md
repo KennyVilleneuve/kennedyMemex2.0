@@ -1,0 +1,1 @@
+The race between the [[USSR]] and the United States to land a man on the moon, along with other goals, like getting the first satalite in orbit, and first man in space. 

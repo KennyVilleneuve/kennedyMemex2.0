@@ -1,9 +1,21 @@
 
   
 
+**HIST 1900 C**
+
+  
+
+Monday January 9th 1:05 pm
+
+-   Final assessment is to replicate vannevar Busch vision forth further in 1945, Our personal memex. 
+-   Will be done using the Obsidian note taking app. 
+-   Rest of Notes on obsidian 
+
+  
+
 **Wednesday January 11th 1:05 pm** 
 
--   Note taking tips,  If prof is repeating then what is going is important 
+-   Note taking tips,  If prof is repeating then what is going is important ( No shit).
 -   TÉXvn= ‘craft, Art 
 -   Pronto-Indo-European teas meaning to weave and to fabricate.
 -   Focus is put on the making of things, 
@@ -210,7 +222,11 @@
 
 -   Before telegram, 100 days between London and Hong Kong. 
 -   Marx and Engels, the need for a constantly changing market
--   If messaging is instant them how can a state be controlled
+-   If messaging is instant them how can a state be controlled 
+
+  
+
+  
 
 **Feb 27th 1:05 pm**
 
@@ -260,4 +276,222 @@
 
 -   Combines Information theory with logic theory 
 
--   Model K adder Proof of concept for what Shannon was arguing in his papers.
+-   Model K adder Proof of concept for what Shannon was arguing in his papers. 
+
+  
+
+**March 15th** 
+
+  
+
+-   Birth of the Internet 
+
+-   October 29, 1969 ! = Birth of the Internet (Official)
+-   ^— first bubbles in the boiling pot 
+
+-   Problem of (whig history)
+
+-   Tell the story with the end goal in mind 
+-   The only possible history you can end with, is one where x
+-   All the problems therein that metaphors 
+
+-   Completely different history of the internet from the French Perspective 
+
+-   Charles de gaulle,  France needs domestic atomic research 
+-   Peaceful harnessing of nuclear power ( and bombs)
+-   “We can’t have America owning critical infrastructure”
+-   1966, plan calcul, research agency, to compete with ARPA etc
+-   Institution du research en informatique. 
+
+-   CYCLADES-1971, demo 1973, fully operational 1976
+
+-   Led by Louis Pouzin,
+
+-   Coins term datagram. 
+-   Explicitly designed from the outset to connect different networks together (unlike arpanet)
+
+-   Alohanet 
+
+-   University of Hawaii- Main campus near Honolulu, other campuses on main island and on Oahu. 
+-   1968 department of electrical engineering begin planning a way to broadcast data over radio
+-   To permit sharing of the main campus computer 
+-   Technichal issues solved and goes into use June 1971. 
+
+-   Why we need (weird thing)
+
+-   The Russians are coming!!!
+
+-   Cold War paranoia turns into funding. 
+-   Space race but not as glamourous. 
+
+-   What’s going on in (other country0
+
+-   Finding a history inter-networking would be a goof thing for memex.   
+
+-   How do we get internet 
+
+-   Connect different kinds of networks 
+-   One network does not an internetwork make.
+
+-   What is the history of the internet
+
+-   A history of the people, especially women not the technology 
+-   A history of the NIC, and other research institutions, and how women where systematically removed form the sector
+
+-   Buildup of networks 
+
+-   1969-1973 period of ferment 
+
+-   UCLA analysis, how well is the network working 
+-   Less of a planned set up, but more of a never ending argument with lets of social arguments.
+
+  
+
+  
+
+**March 20th** 
+
+  
+
+-   Phone phreaking
+
+-   Toll fraud, criminal offence
+-   Steve jobs and Steve wosniack come from this community. 
+-   War games movie <— sacred the shit out of the establishment 
+-   Lightman’s guy, gets into the supercomputer through scanning 
+-   Kevin mitnick arrested for computer fraud, given solitary confiement.
+-   Ronald Regan overreacts 
+-   Wargames, and other films lead to law changes.
+-   Congress decides that warcrimes is realistic. 
+
+-   Computer Fraud and abuse act 
+
+-   Law continues to be expanded and combined with the patriot act.
+-   Lead to the suicide of Aaron Schwartz 
+
+-   Bulletin board 
+
+-   Computers calling each other, (Fidonet) 
+-   Store and forward type network 
+
+-   Other countries follow suite
+
+-   France and Minitel 1981
+
+-   Origin of  games
+
+-   MUD
+-   University of Exeter 
+-   Video Game console get popular with the invention of the game cartridge 
+-   Early game communities give people a sense of being via a computer 
+-   Early games where effectively places for all intents and purposes
+-   They were someplace you went, you mind went there, and your physical body stayed in one here.
+
+  
+
+**March 27th** 
+
+-   Early internet in the 90s
+
+-   Lots of early browser, netscape etc copy each other
+-   Apple and Microsoft start copying each other
+-   Manufactures start bundling in house browsers onto machines
+
+-   Netscape bought out by AOL 
+
+-   Netscapes dies in 2008, “end of the first browser war
+-   Out of the ashes, comes Mozilla Firefox
+
+-   Special contract with Google for search 
+
+-   Yahoo, has 20 people, whose job was to index the whole internet.
+-   Beverly Hills webpages(allows people to create their own webpages)
+
+-   Created a by queer man, much of internet history when pulled back is queer coded
+-   Yahoo, buys geocities, kills all geographical metaphors
+
+-   Yahoo kills geocities, 2009
+
+-   Yahoo kills the greatest amount of history, in the greatest amount of time possible, on purpose
+
+-   Coms Deceny act 
+
+-   Section 230 protects corporations from really being liable for what goes on on their platforms 
+
+-   The dot-com boom/bust 
+
+-   Rise of google
+
+-   web2.0
+
+-   enshittification of everything
+
+  
+
+(Class note of hypothesis annotations of ai written essay) 
+
+[**https://shawngraham.github.io/hist1900/assets/slides/mar27#/35**](https://shawngraham.github.io/hist1900/assets/slides/mar27#/35)
+
+  
+
+**March 29th** 
+
+  
+
+-   **Ai generated imagery**
+
+-   Models have been mainly trained on American culture as opposed to world cultures leading to examples such as Zulu warriors and Russian politicians being depicted as smiling the the ai was asked to show them to take a selfie, when in reality for these cultures smiling win theses circumstances would be seen as being a fool. 
+
+-   South seas bubble (1720s)  ([https://www.youtube.com/watch?v=k1kndKWJKB8](https://www.youtube.com/watch?v=k1kndKWJKB8))
+
+-   Buys all of Britains debt 
+
+-   Gov sells debt to south seas, if the gov owes you money sell to south sea, south sea collects government interest 
+-   Shares raise to over 1000$ in value in the 1720s
+-   Scandal brings first modern Primeminster to power
+-   Walpoleeeeeee—> regulates self sea
+-   Start of laissez faire capitalism
+
+-   Irrational exuberance 
+
+-   Get rich quick 
+
+-   This time its different than last time
+-   Pshhhh the banks won’t failllll
+
+-   Ceo entrapanour born in 1964, jefereee, jefreee bezos 
+
+-   Quites wall street to join a hedge fund to make auto trading faster 
+
+-   Needs to figure out to make money on the web 
+
+-   Why books?
+-   Large industry 
+-   Large number of publishers 
+-   Independant book stores
+-   Barnes and noble chain =25% of market
+-   Bezos figures he can do all this without overhead. 
+-   Early blindness model 
+
+-   Low price
+-   Taking advantage of us tax payer infrastructure 
+
+-   So where’s the exuberance 
+
+-   Enter the venture capitalists
+-   Amazon gets front page spot in the wall street journal 
+
+-   Amazon
+
+-   Becomes mini modern day version of the south seas bubble as the money is effectively coming out of the air
+
+-   March 2000
+
+-   .com bubble Bursts 
+-   especially [webvan.com](http://webvan.com)  and [pets.com](http://pets.com)
+
+-   Lasting impact of the dot com boom
+
+-   Internetification of logistics 
+-   Emergence of online content 
+-   Development of advertising

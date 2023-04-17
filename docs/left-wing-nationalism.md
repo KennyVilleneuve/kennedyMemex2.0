@@ -1,0 +1,1 @@
+Nationalism promoted by the left wing of the political spectrum as opossed to the right. Often includes the ideas of popular sovreignty, example the quebec independance movement is a fundamentally leftist and cenre left idea on the quebec political spectrum. 

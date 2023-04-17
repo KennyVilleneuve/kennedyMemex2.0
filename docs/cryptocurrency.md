@@ -1,0 +1,1 @@
+Currency that exists only in the digital world, and often lacks backing of a central bank. 

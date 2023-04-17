@@ -1,0 +1,1 @@
+Department within the Goverment of Canada responsible for preserving historic and culture sights, promote Canadian vlaues like human rights, and to promtoe the arts. It is over seen my Minster Pablo Rodriguez ([[Liberal]]) (Honoré-Mericier)

@@ -1,0 +1,1 @@
+The Union of Soviet Socialist Republics or Soviet-Union, was the main idelogical oppent of the United States during the cold war. It desolved in 1991 into a number of independant states, including Ukraine and the Russian Federation. 

@@ -1,0 +1,1 @@
+Acronym standing for Internet Service provider. Companies like Bell and Rodgers are ISPs. 

@@ -1,0 +1,1 @@
+The ability to seclude oneself and information about oneself. 

@@ -1,0 +1,1 @@
+The North American Treaty Organization is millitary alliance comprsingly mainly Liberal Democracies, inclduing Canada the United States, Finland, France and The United Kingdom

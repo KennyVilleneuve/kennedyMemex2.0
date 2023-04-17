@@ -1,0 +1,1 @@
+A period in which [[NATO]] and the [[USSR]] stockpiled nuclear wepons in the event the two would ever fight a war, the war never got hot and ended with the dissalution of the USSR in 1991.

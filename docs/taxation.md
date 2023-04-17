@@ -1,0 +1,1 @@
+The ammount determined by Goverment that is owened to goverment in return for services like police, the army, roads, and healthcare.  

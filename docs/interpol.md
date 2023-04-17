@@ -1,0 +1,1 @@
+Interpol or International-police, is a united nations crime crime fighting organization that works with member nations to fight crime on a global scale. 

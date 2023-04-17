@@ -1,0 +1,1 @@
+Nationalism is an ideology based on on that the individual’s loyalty and devotion to the state outwights all other loyalties. 
