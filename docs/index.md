@@ -3,6 +3,11 @@
 To Close I have very much enjoyed this class, I certainly found it hard, but it was very much worth it, I got to meet some great people and you where an amazing Prof Dr. Graham, Have a great summer! 
 
 A big focus in this work is the idea of the influence of Government on internet, specfically wheather or not Government can regulate the internet like televison and radio and if the answer is yes, is a new unique approach needed or should the Governmnet follow the exsting mold. This focus was chosen because bill c-11 passed the Senate of Canada shortly before the duedate on the first submission, as this was Canada's largest overhaul to internet regulation in a long time, and because of the controvorsy surrounding the law I thought regulation ought to be appropriate focus. -Kennedy. 
+
+## The Final Journey 
+---
+* [[Final Journey 1]]
+* [[Final Journey 2]]
 ## Sourcenotes
 --- 
 * [[canadaDebatesIssue96SourceNote]]
@@ -78,7 +83,7 @@ A big focus in this work is the idea of the influence of Government on internet,
 
 ## Important Terms
 --- 
-[[billc-11]]
+[[Billc-11]]
 [[Canadiancontent]]
 [[Capitalisim]]
 [[Contentcreators]]
