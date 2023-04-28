@@ -1,0 +1,954 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../y2k%20bug/" rel="prev"/>
+<link href="../Mermaid%20Diagrams/" rel="next"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.8" name="generator"/>
+<title>LaTeX Math Support - obsidian-mkdocs template</title>
+<link href="../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#latex-math-support">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              LaTeX Math Support
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Kennedy's Memex
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../A%20look%20into%20the%20future%20from%201945/">
+        A look into the future from 1945
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Admiralty/">
+        Admiralty
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Africa/">
+        Africa
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Alan%20Turing/">
+        Alan Turing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../All%20Class%20Notes/">
+        All Class Notes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../An%20early%20Attempt%20at%20internet%20regulation%20in%20Canada/">
+        An early Attempt at internet regulation in Canada
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../CRTC/">
+        CRTC
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../CSIS/">
+        CSIS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../CableingAtlanticWiringsourcenote/">
+        CableingAtlanticWiringsourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../CablingAtlanticWiring/">
+        CablingAtlanticWiring
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Can%20we%20force%20companies%20to%20share./">
+        Can we force companies to share.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Canadian%20Internet%20exceptionalism/">
+        Canadian Internet exceptionalism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Canadiancontent/">
+        Canadiancontent
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Capitalisim/">
+        Capitalisim
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Comdity%20Fetishism%20and%20the%20internet/">
+        Comdity Fetishism and the internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Contentcreators/">
+        Contentcreators
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../DEA/">
+        DEA
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Discoverablity%20of%20non%20mainstreem%20music%20on%20the%20Internet./">
+        Discoverablity of non mainstreem music on the Internet.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Do%20children%20have%20a%20place%20on%20the%20internet./">
+        Do children have a place on the internet.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Do%20we%20owe%20today%20to%20Hiroshima%20%26%20Nagasaki%3F/">
+        Do we owe today to Hiroshima &amp; Nagasaki?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Equality%20in%20the%20Victorian%20Era/">
+        Equality in the Victorian Era
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../EtreOuNe/">
+        EtreOuNe
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../EtreOunesourcenote/">
+        EtreOunesourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Fear%20of%20the%20Future./">
+        Fear of the Future.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Final%20Journey%201/">
+        Final Journey 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Final%20Journey%202/">
+        Final Journey 2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../French%20Railroad%20Colnization%20of%20Africa/">
+        French Railroad Colnization of Africa
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Goverment%20Debate%20on%20regulation/">
+        Goverment Debate on regulation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Goverment/">
+        Goverment
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Govermentresearch/">
+        Govermentresearch
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Hiroshima%20%26%20Nagasaki/">
+        Hiroshima &amp; Nagasaki
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ImaginingCanadianInternetsourcenote/">
+        ImaginingCanadianInternetsourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Infrastructure%20sharing%20as%20a%20form%20of%20open%20acces./">
+        Infrastructure sharing as a form of open acces.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Institutionalized%20misogyny./">
+        Institutionalized misogyny.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../International%20or%20national%3F/">
+        International or national?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../InternetRegulation/">
+        InternetRegulation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../JaffreyCanadaProposedTelecommunicationsourcenote/">
+        JaffreyCanadaProposedTelecommunicationsourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../KramerUnifiedFrameworkSourcenote/">
+        KramerUnifiedFrameworkSourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Largecorparations/">
+        Largecorparations
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Liberal/">
+        Liberal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Lost%20tax%20Revenue./">
+        Lost tax Revenue.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../NATO/">
+        NATO
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Nextlevelaccessnetworks/">
+        Nextlevelaccessnetworks
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../North%20and%20South%20America/">
+        North and South America
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Nuclear-Bomb/">
+        Nuclear Bomb
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Openaccsess/">
+        Openaccsess
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../RCMP/">
+        RCMP
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Regulating%20the%20internet%20vs%20regulating%20privacy/">
+        Regulating the internet vs regulating privacy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../RegulationInternetAccess/">
+        RegulationInternetAccess
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../RegulationInternetAccesssourcenote/">
+        RegulationInternetAccesssourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../STEM/">
+        STEM
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Should%20the%20free%20market%20determine%20the%20Langafranca%20of%20the%20Internet./">
+        Should the free market determine the Langafranca of the Internet.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Should%20the%20internet%20be%20for%20sale./">
+        Should the internet be for sale.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Should%20wikipedia%20be%20nationalized./">
+        Should wikipedia be nationalized.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Subtle%20Imperialism%3F/">
+        Subtle Imperialism?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Technological%20revolution/">
+        Technological revolution
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Telegraph/">
+        Telegraph
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../The%20U.S.A%2C%20Land%20of%20war%20based%20technology./">
+        The U.S.A, Land of war based technology.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../The%20present%20echoes%20the%20past/">
+        The present echoes the past
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../USSR/">
+        USSR
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Unique%20Cyber%20crime%20agency./">
+        Unique Cyber crime agency.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../United%20nations/">
+        United nations
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../University%20Internet/">
+        University Internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Victorian%20Era/">
+        Victorian Era
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../WW2/">
+        WW2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Was%20the%20pain%20worth%20it%3F/">
+        Was the pain worth it?
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Where%20their%20fears%20justified./">
+        Where their fears justified.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Who%20benifited%20most%20from%20the%20first%20Transatlantic%20telegraph./">
+        Who benifited most from the first Transatlantic telegraph.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Why%20the%20Debate%20on%20c-11./">
+        Why the Debate on c 11.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Wikipedia/">
+        Wikipedia
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Women%20in%20wartime./">
+        Women in wartime.
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../arpanet/">
+        Arpanet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../billc-11/">
+        Billc 11
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../bitcoin/">
+        Bitcoin
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../brutonUncertainPresentWomen2020/">
+        brutonUncertainPresentWomen2020
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../brutonUncertainPresentWomen2020sourcenote/">
+        brutonUncertainPresentWomen2020sourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../bushWeMayThink1945/">
+        bushWeMayThink1945
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../bushWeMayThink1945sourcenote/">
+        bushWeMayThink1945sourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../canadaDebatesIssue96/">
+        canadaDebatesIssue96
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../canadaDebatesIssue96SourceNote/">
+        canadaDebatesIssue96SourceNote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../canunet/">
+        Canunet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cold%20war/">
+        Cold war
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../colonialism/">
+        Colonialism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../communications%20studies/">
+        Communications studies
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../computer%20science/">
+        Computer science
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../criminallaw/">
+        Criminallaw
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../crowncorparation/">
+        Crowncorparation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cryptocurrency/">
+        Cryptocurrency
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cybercrime/">
+        Cybercrime
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../democratic%20participation/">
+        Democratic participation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../department%20Of%20Canadian%20heritage/">
+        department Of Canadian heritage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../departmentofcandianheritageTechnicalPaper2021sourcenote/">
+        departmentofcandianheritageTechnicalPaper2021sourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../earlyinternet/">
+        Earlyinternet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../enigma/">
+        Enigma
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../europe/">
+        Europe
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fiberopticcable/">
+        Fiberopticcable
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../freidmanCanadaBabySteps1999sourcenote/">
+        freidmanCanadaBabySteps1999sourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../futurism/">
+        Futurism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../highereducation/">
+        Highereducation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../hypothesis%20config/">
+        Hypothesis config
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../imperialism/">
+        Imperialism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../infrastructure/">
+        Infrastructure
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../internetinfrastructure/">
+        Internetinfrastructure
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interpol/">
+        Interpol
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../isp/">
+        Isp
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kramerUnifiedFrameworkOpen2014%28Memex2%29/">
+        kramerUnifiedFrameworkOpen2014(Memex2)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../language%20protections/">
+        Language protections
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../language/">
+        Language
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lawenforcement/">
+        Lawenforcement
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../left-wing-nationalism/">
+        Left wing nationalism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../library%20of%20alexandria/">
+        Library of alexandria
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lukasikWhyArpanetWassourcenote/">
+        lukasikWhyArpanetWassourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../menkeMediumMediaFictions2013/">
+        menkeMediumMediaFictions2013
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../menkeMediumMediaFictions2013sourcenote/">
+        menkeMediumMediaFictions2013sourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../miliganProjectMUSEHaven/">
+        miliganProjectMUSEHaven
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../miliganProjectMUSEHavensourcenote/">
+        miliganProjectMUSEHavensourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misogyny/">
+        Misogyny
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../monopolization/">
+        Monopolization
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../monopoly/">
+        Monopoly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../nationalism/">
+        Nationalism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../neoliberal/">
+        Neoliberal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../net%20north/">
+        Net north
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../opportunity%20cost/">
+        Opportunity cost
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../postal%20system/">
+        Postal system
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../privacy/">
+        Privacy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../radar/">
+        Radar
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../railroads/">
+        Railroads
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../regulation/">
+        Regulation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../robertsREPUBLICANISMRAILWAYIMPERIALISM2011/">
+        robertsREPUBLICANISMRAILWAYIMPERIALISM2011
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../robertsREPUBLICANISMRAILWAYIMPERIALISM2011sourcenote/">
+        robertsREPUBLICANISMRAILWAYIMPERIALISM2011sourcenote
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../scramble%20for%20africa/">
+        Scramble for africa
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../sexism/">
+        Sexism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../silkroad/">
+        Silkroad
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../social%20media%20platforms/">
+        Social media platforms
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../sociology/">
+        Sociology
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../space%20race/">
+        Space race
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../spying/">
+        Spying
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../taxation/">
+        Taxation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../telecommunications/">
+        Telecommunications
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../telecommunicationsinfrastructure/">
+        Telecommunicationsinfrastructure
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../telegram/">
+        Telegram
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../telephone/">
+        Telephone
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../verticalseperation/">
+        Verticalseperation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ww1/">
+        Ww1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../y2k%20bug/">
+        Y2k bug
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_147" type="checkbox"/>
+<label class="md-nav__link" for="__nav_147" id="__nav_147_label" tabindex="0">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_147_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_147">
+<span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        LaTeX Math Support
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mermaid%20Diagrams/">
+        Mermaid diagrams
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Text%20Formatting/">
+        Text Formatting
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_148" type="checkbox"/>
+<label class="md-nav__link" for="__nav_148" id="__nav_148_label" tabindex="0">
+          Topic 1
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_148_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_148">
+<span class="md-nav__icon md-icon"></span>
+          Topic 1
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Topic%201/Note%201/">
+        Note 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Topic%201/Note%202/">
+        Note 2
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="latex-math-support">LaTeX Math Support<a class="headerlink" href="#latex-math-support" title="Permanent link">¶</a></h1>
+<p>LaTeX math is supported using MathJax.</p>
+<p>Inline math looks like <span class="arithmatex">\(f(x) = x^2\)</span>. The input for this is <code>$f(x) = x^2$</code>. Use <code>$...$</code>.</p>
+<p>For a block of math, use <code>$$...$$</code> on separate lines</p>
+<pre><code>$$
+F(x) = \int^a_b \frac{1}{2}x^4
+$$
+</code></pre>
+<p>gives </p>
+<div class="arithmatex">\[
+F(x) = \int^a_b \frac{1}{2}x^4
+\]</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
